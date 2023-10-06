@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/60d19952ed.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#certifications">certifications</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Shriram</span><br> Wakchaure from India</h1>
+            </div>  
+
+
+        </div>
+
+    </div>
+<!------------------------about--------------------------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+               <div class="about-col-1">
+                    <img src="images/aboutimg.png" >
+               </div>
+               <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p>A highly skilled professional 
+                seeking a challenging position where I can apply my technical expertise
+                and soft skills to contribute to an organization's success. 
+                Having a solid foundation in SAP S/4 HANA sourcing and procurement, 
+                as well as expertise in HTML,CSS MYSQL, SQL, Python, JavaScript, Bootstrap 
+                and generative AI tools, I aim to streamline processes and optimize operations.
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>SAP MM</span><br>SAP ECC application associate-Procurement with SAP ERP 6.0 EhP7 </li>
+                        <li><span>Web development</span><br>Web application development</li>
+                        <li><span>Languages</span><br>MYSQL,SQL,python,HTML,CSS,Java Script,React</li>
+                    </ul>    
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Nov 2021 - Aug2022</span><br>Associate sales manager/Decathlon Sports India.</li>
+                        <li><span>Dec 2022 - Mar2023</span><br>SAP Support consultant/Delphi Computech pvt ltd. Internship</li>
+                    </ul>    
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>B.E Mechanical, CGPA 9.2 Pune university, Nashik</li>
+                        <li><span>2019</span><br>Diploma Mechanical, CGPA 7.2 MSBTE, Nashik</li>
+                    </ul>    
+                </div>
+               </div> 
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------services---------------------------- -->
+    <div id="certifications">
+        <div class="container">
+            <h1 class="sub-title">MY CERTIFICATIONS</h1>
+            <div class="certifications-list">
+                <div>
+                    <i class="fa-regular fa-file"></i>
+                    <h2>SAP Certified Application Associate</h2>
+                    <p>Procurement with SAP ERP 6.0 EhP7</p>
+                    <a href="images/SAP_Certified_Application_Associate___Procurement_with_SAP_ERP_6_0_EhP7_Badge20221206-30-1veuios.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file"></i>
+                    <h2>TCS ION Career Edge</h2>
+                    <p>Young Professional</p>
+                    <a href="images/shriram TCS ION.pdf">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-file"></i>
+                    <h2>Accenture[Forage]</h2>
+                    <p>Data analytic and visualization experience</p>
+                    <a href="images/accenture project experience.pdf">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------portfolio--------------->   
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Treakhosting Website</h3>
+                    <p>Developed responsive website for trek hosting company 
+                        using HTML, CSS, PHP and MySQL. Implemented user registration flow with front-end 
+                        form validation and secure back-end handling. Stored user sign-ups in MySQL database tables. 
+                        Built admin portal to view and manage submissions. Demonstrated skills in responsive UI creation, 
+                        back-end database connectivity, input sanitization and overall full-stack development.</p>
+                        <a href="https://github.com/ramwakchaure"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>Registration Form</h3>
+                    <p>Perfromed CRUD opertions with connectivity to MySQL database tables</p>
+                        <a href="https://github.com/ramwakchaure"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>Designed and developed a dynamic portfolio website, leveraging HTML, CSS, and JavaScript 
+                       to create an engaging user experience. Demonstrated creativity and technical expertise in crafting 
+                       a visually appealing online showcase of my projects, skills, and achievements. Implemented responsive 
+                       design principles to ensure seamless accessibility across devices. The website serves as a testament 
+                       to my ability to combine aesthetics with functionality and effectively communicate my professional profile.</p>
+                     <a href="https://github.com/ramwakchaure"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/ramwakchaure" class="btn">See more</a>
+    </div>
+</div> 
+<!----contact form---------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <P><i class="fa-solid fa-paper-plane"></i>ram275980@gmail.com</P>
+                <p><i class="fa-solid fa-square-phone"></i>+919970039992</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ramwakchaure/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shriramw/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ramwakchaure"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="images/RESSHRIRAM1 (2)(1).pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type=" text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Shriram. Made With Passion</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+         function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxys4fA21xqypqre6LQ5QXFckxIBCkAbMLbEWXx5_mhIUG4B_tR2hprXUx36MpCo67cXw/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()   
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+// Parallax JavaScript
+const bg = document.getElementById('header');
+
+window.addEventListener('scroll', function() {
+  let offset = window.pageYOffset;
+  bg.style.backgroundPositionY = offset * 0.7 + 'px'; 
+})
+</script>
+
+  
+    
+</body>
+</html>
